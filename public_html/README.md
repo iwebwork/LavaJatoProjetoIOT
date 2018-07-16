@@ -1,1 +1,2 @@
 16/07/2018 Inicio da criação do site para o trabalho de Iniciaçao Ciêntifica Lava-Jato.
+16/07/2018 Foi adcionado na pasta assets/bootstrapv3 e assets/bootstrapv4 os frameworks bootstrap3, bootstrap4 e JQuery.
