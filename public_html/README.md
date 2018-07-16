@@ -6,3 +6,5 @@
     Funcionamento - Esta pagina será responsavel por alocar toda a informação logica, como o digrama de sequencia, 
                     aonde esta todo o funcionamento logico e a imagem de como foi montado o arduino que funcionará como controle.
     Info - Aqui se encontra todo o calendario de planejamento e a tabela com os trabalhos planejados para o dia de encontro.
+16/07/2018 Base do menu atualizado.
+16/07/2018 Criado o texto de apresentação da pagina inicial, o arquivo com o texto se encontra na pasta projeto LAVA-JATO arquivo intro-Lava-Jato.
