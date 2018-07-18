@@ -9,3 +9,4 @@
 16/07/2018 Base do menu atualizado.
 16/07/2018 Criado o texto de apresentação da pagina inicial, o arquivo com o texto se encontra na pasta projeto LAVA-JATO arquivo intro-Lava-Jato.
 16/07/2018 Imagem criada e adcionada ao site. Falta criar o rodapé.
+17/07/2018 Foi criado a imagem diagrama em blocos.png do projeto para uso exclusivo no site, deverá ser acrescentada ao mesmo.
