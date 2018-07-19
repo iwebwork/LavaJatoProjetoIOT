@@ -11,4 +11,5 @@
 16/07/2018 Imagem criada e adcionada ao site. Falta criar o rodapé.
 17/07/2018 Foi criado a imagem diagrama em blocos.png do projeto para uso exclusivo no site, deverá ser acrescentada ao mesmo.
 17/07/2018 Imagem inserida, falta estilizar-la, para melhorar a aparância dentro do site.
-18/07/2018 Titulo acrecido a imagem, arquivo style-background.css criado para estilizar o fundo do site. 
+18/07/2018 Titulo acrecido a imagem, arquivo style-background.css criado para estilizar o fundo do site.
+18/07/2018 Menu criado, estilizado, so falta pequenos detalhes de cores quando o mouse estiver em cima.
