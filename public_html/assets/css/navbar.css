@@ -1,18 +1,32 @@
+/*CSS para o fundo do menu*/
 .nav-menu{
-    background-color: #c7f6a0;
-    font-family: arial black;
-    font-size: 20px;
-}
-
-ul li a{
-    color:#221e55;
-}
-
-ul li a:hover{
-    color:#3a348e;
-    background-color: red;
+    background-color: #e6fed9;
+    font-family: Book Antiqua;
+    font-size: 22px;
+    list-style: none;
     
 }
+
+/*CSS para mudar a cor por completo do menu*/
+.nav-body{
+    background-color: #e6fed9;
+}
+
+.nav-menu ul li a{
+    color: black;
+}
+
+
+.nav-menu ul li a:hover{
+    background-color: #a4fc6f;
+    
+}
+
+.active-menu{
+    background-color: #a4fc6f;
+    
+}
+
 
 
 

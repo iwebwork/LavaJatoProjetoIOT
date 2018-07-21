@@ -13,3 +13,5 @@
 17/07/2018 Imagem inserida, falta estilizar-la, para melhorar a aparância dentro do site.
 18/07/2018 Titulo acrecido a imagem, arquivo style-background.css criado para estilizar o fundo do site.
 18/07/2018 Menu criado, estilizado, so falta pequenos detalhes de cores quando o mouse estiver em cima.
+20/07/2018 Menu alterado e concluido.
+20/07/2018 Estilização do restante da pagina inicial encerrado (Passivel de alteração).

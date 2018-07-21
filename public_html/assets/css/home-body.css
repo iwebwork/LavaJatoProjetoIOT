@@ -2,7 +2,19 @@
     text-align: center;
 }
 
+.body-corpo-img{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color:#e6fed9;
+    font-family: Book Antiqua;
+}
+
 .body-img{
     margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color:#e6fed9;
+    font-family: Book Antiqua;
 }
 
