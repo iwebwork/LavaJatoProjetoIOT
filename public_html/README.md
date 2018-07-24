@@ -17,3 +17,4 @@
 20/07/2018 Estilização do restante da pagina inicial encerrado (Passivel de alteração).
 21/07/2018 Site postado com sucesso, esta no link http://lava-jato.000webhostapp.com/
 23/07/2018 Menu alterado e estilizado, foi finalizado.
+23/07/2018 Site atualizado na hospedagem.
