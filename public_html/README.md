@@ -19,3 +19,6 @@
 23/07/2018 Menu alterado e estilizado, foi finalizado.
 23/07/2018 Site atualizado na hospedagem.
 24/07/2018 Codigo estava dando erros, foi concertado.
+25/07/2018 Imagem do diagrama atualizado, foi almentado o seu tamanho.
+25/07/2018 Organização do site alterado, foi organizado de forma que, possa ocupar mais a área da pagina.
+25/07/2018 Ouve alterações no comportamento da fonte do texto do titulo da imagem, para ficar responsiva.
