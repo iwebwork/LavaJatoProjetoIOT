@@ -1,8 +1,7 @@
 16/07/2018 Inicio da criação do site para o trabalho de Iniciaçao Ciêntifica Lava-Jato.
 16/07/2018 Foi adcionado na pasta assets/bootstrapv3 e assets/bootstrapv4 os frameworks bootstrap3, bootstrap4 e JQuery.
 16/07/2018 Vai ter um menu com 4 itens MENU: Inicio / Sobre / Funcionamento / info
-    Inicio - Uma breve apresentação sobre o trabalho e qual nossa intenção com ele.
-    Apresentação - O diagrama base será alocado nesta pagina, será dito como ele funciona e todos os detalhes.
+    Inicio - Uma apresentação sobre o trabalho e foi inserido o Diagrama em Blocos com toda a explicação sobre o sistema.
     Funcionamento - Esta pagina será responsavel por alocar toda a informação logica, como o digrama de sequencia, 
                     aonde esta todo o funcionamento logico e a imagem de como foi montado o arduino que funcionará como controle.
     Info - Aqui se encontra todo o calendario de planejamento e a tabela com os trabalhos planejados para o dia de encontro.
@@ -22,3 +21,4 @@
 25/07/2018 Imagem do diagrama atualizado, foi almentado o seu tamanho.
 25/07/2018 Organização do site alterado, foi organizado de forma que, possa ocupar mais a área da pagina.
 25/07/2018 Ouve alterações no comportamento da fonte do texto do titulo da imagem, para ficar responsiva.
+27/07/2018 O texto da pagina inicial foi alterado para ser inserido na pagina inicial
