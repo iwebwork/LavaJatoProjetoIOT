@@ -21,4 +21,5 @@
 25/07/2018 Imagem do diagrama atualizado, foi almentado o seu tamanho.
 25/07/2018 Organização do site alterado, foi organizado de forma que, possa ocupar mais a área da pagina.
 25/07/2018 Ouve alterações no comportamento da fonte do texto do titulo da imagem, para ficar responsiva.
-27/07/2018 O texto da pagina inicial foi alterado para ser inserido na pagina inicial
+27/07/2018 O texto da pagina inicial foi alterado para ser inserido na pagina inicial.
+27/07/2018 Referencia dos componentes do sistema terminado, poderá haver alterações.

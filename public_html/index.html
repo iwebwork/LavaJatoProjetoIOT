@@ -25,7 +25,6 @@ and open the template in the editor.
         <link rel="stylesheet" href="assets/bootstrapv4/bootstrap.min.css" type="text/css"/>
         
         <!--CSS proprios-->
-        <link rel="stylesheet" href="assets/css/style-background.css" type="text/css"/>
         <link rel="stylesheet" href="assets/css/navbar.css" type="text/css"/>
         <link rel="stylesheet" href="assets/css/home-body.css" type="text/css"/>
 
@@ -44,7 +43,6 @@ and open the template in the editor.
                 <div class="navbar-collapse collapse justify-content-center" id="navbarMenu">
                     <div class="navbar-nav">
                         <a href="index.html" class="nav-item nav-link font-corpo active">Inicio</a>
-                        <a href="#" class="nav-item nav-link font-corpo">Apresentação</a>
                         <a href="#" class="nav-item nav-link font-corpo">Funcionamento</a>
                         <a href="#" class="nav-item nav-link font-corpo">Info</a>
                     </div>
@@ -56,23 +54,98 @@ and open the template in the editor.
         
         <!--Inicio do Corpo-->
         
-        <!--Inicio da area da texto-->
+        <!--Inicio da area inicial-->
         <!-- OBS: A classe body-img e para afastar o conteudo do topo-->
         <div class="container-fluid body-corpo-img">
             <div class="row">
                 <div class="col-sm-1">
                     
                 </div>
-                <div class="col">
+                <div class="col-sm-10">
                     <h2>
                         <article>
-                            <p>Nosso trabalho está sendo feito com o intuito de ajudar as empresas e residências a reaproveitar água utilizada.</p>
-                            <p>Nosso objetivo e reutilizar a água não somente uma vez, mas sim, o máximo possível, ela segue um caminho que, toda vez que é utilizada, nosso lava-jato à reaproveitará filtrando.</p>
-                            <p>O funcionamento segue o caminho de, primeiro ela passa pelo filtro, seguindo caminho para o reservatório secundário, o usuário utilizará somente a água do reservatório primário, pois este irá receber a água filtrada do reservatório secundário.</p>
-                            <p>Caso o usuário ainda não tenha água filtrada, este poderá utilizar a água da rua</p>
-                            <p>Todo o controle e feito pelo sistema, o usuário não precisa se preocupar, pois, se não tiver água no reservatório principal, e o mesmo o solicitar, automaticamente a água da rua será ligada, e o usuário poderá utilizar a água filtrada quando a mesma estiver disponível.</p>
+                            <p>O trabalho está sendo feito com o intuito de ajudar empresas e residências a reaproveitar água utilizada no seu dia-a-dia, como por exemplo, 
+                                quando lavamos o carro, seja em um lava-jato, ou também no próprio conforto de casa, utilizamos água para lavar vasilha doméstica.</p>
                         </article>
                     </h2>
+                </div>
+                <div class="col-sm-1">
+                    
+                </div>
+            </div>
+            <!-- ----------------------- -->
+            <div class="row">
+                <div class="col-sm-1">
+                    
+                </div>
+                <div class="col-sm-10">
+                    <h2>
+                        <article>
+                            <p>
+                                Nosso objetivo e reutilizar a água filtrada não somente uma vez, ao invés disso, a água poderá ser reutilizada o máximo possível, 
+                                toda vez que utilizamos, normalmente ela vai embora pelos canos, como também acontece de haver desperdício, água saindo por um caminho diferente e não voltando para os canos de sua residência, 
+                                depois que você utiliza, ela precisa retornar pelos canos, para depois ser tratada. O projeto evitará todos esses problemas, ajudando no reaproveitamento de água potável, mesmo que tenha sido usada para lavar seu carro, ou para outros fins,
+                                o sistema se encarrega de filtrar a água, de tal forma que, a conta virá menor no final do mês, sem contar que, o meio ambiente agradece.
+                            </p>    
+                        </article>
+                    </h2>
+                </div>
+                <div class="col-sm-1">
+                    
+                </div>
+            </div>
+            <!-- Fim da aréa inicial>
+            
+            <!-- Inicio da área do texto -->
+            <div class="row">
+                <div class="col-sm-1">
+                    
+                </div>
+                <div class="col-sm-10 h2">
+                    <!-- Titulo -->
+                    <h1 class="text-center">Referecia dos Componentes</h1>
+                    
+                    <!-- Itens -->
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Controle:</span> Fica responsável por todo o comportamento do sistema, controla o uso de água da rua, libera automaticamente quando necessário a vazão de água do reservatório. 
+                        Controla a vazão de água filtrada do reservatório primário. Desliga automaticamente a bomba de vazão do reservatório de água filtrada secundário. Todos os processos podem ser feitos automaticamente pelo controle, porém estas solicitações podem ser feitas manualmente pelo usuário.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Reservatório de Água da Rua:</span> Recebe água potável da sua região.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Filtro:</span> E responsável por filtrar água utilizada que desce pelos canos.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Reservatório de água filtrada secundário:</span> Recebe água que acabou de passar pelo filtro.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Reservatório de água filtrada principal:</span> Além de receber água filtrada do Reservatório Secundário, este também fornece água para o usuário.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Válvula 1:</span> E responsável por liberar a vazão de água do Reservatório de Água da Rua.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Válvula 2:</span> E responsável por liberar a vazão de água do Reservatório de Água Filtrada Principal.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Ladrão:</span>  Permite que a água saia do reservatório, e siga automaticamente para o outro reservatório.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Bomba:</span> Fica responsável por levar a água filtrada do Reservatório de Água Filtrada Secundário para o Reservatório de Água Filtrada Principal, quando conter um volume de água filtrada máximo que o reservatório aguente, a bomba será desligada pelo controle.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Sensor-alto 1(S-alto1):</span> Fica responsável por controlar a chegada de água filtrada pelo Reservatório de Água Filtrada Secundário avisando ao controle que o Reservatório de Água Filtrada Principal está cheio.
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Sensor-baixo1(S-baixo1):</span> E um sensor que permite verificar o volume mínimo de água disponível no Reservatório de Água Filtrada Principal para ser usada, fica responsável também por avisar ao controle quando não terá água suficiente para o consumo.
+                        
+                    </p>
+                    <p>
+                        <span class="text-uppercase font-weight-bold">- Sensor-baixo2(S-baixo2):</span> E um sensor que permite verificar o volume mínimo de água disponível no Reservatório de água filtrada secundário, ele fica responsável por avisar ao controle caso não tenha o volume necessário para ser levado ao Reservatório de Água Filtrada Principal.
+                    </p>
+                    
+                    
                 </div>
                 <div class="col-sm-1">
                     
@@ -82,7 +155,7 @@ and open the template in the editor.
             
         
         
-        <!--Fim da area da texto-->
+        <!--Fim da area d0 texto-->
         
         
         <!--Inicio da area da Imagem-->
@@ -92,7 +165,7 @@ and open the template in the editor.
                     <div class="col-sm-1">
 
                     </div>
-                    <div class="col">
+                    <div class="col-sm-10">
                         <div class="text-aling">Diagrama em Blocos</div>
                         <img src="assets/img/Diagrama de Blocos.png" class="img-responsive"/>
                     </div>
