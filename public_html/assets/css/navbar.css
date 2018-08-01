@@ -48,8 +48,14 @@
 }
 
 .nav-conteudo{
-   
     justify-content: center;
+}
+
+
+.button-tamanho-img{
+    
+    width: 30px;
+    height: 25px;
 }
 
 
