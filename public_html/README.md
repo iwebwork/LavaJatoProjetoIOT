@@ -24,3 +24,5 @@
 27/07/2018 O texto da pagina inicial foi alterado para ser inserido na pagina inicial.
 27/07/2018 Referencia dos componentes do sistema terminado, poderá haver alterações.
 31/07/2018 Icon do menu alterado para ficar com a aparencia melhor em dispositivos mobiles.
+31/07/2018 Rodape criado, passivel de alterações.
+31/07/2018 Alteração mandadas para a hospedagem.
