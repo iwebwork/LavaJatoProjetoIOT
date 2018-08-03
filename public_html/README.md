@@ -26,3 +26,4 @@
 31/07/2018 Icon do menu alterado para ficar com a aparencia melhor em dispositivos mobiles.
 31/07/2018 Rodape criado, passivel de alterações.
 31/07/2018 Alteração mandadas para a hospedagem.
+31/07/2018 Pagina de login criada, corpo do login terminado, rodapé terminado, falta criar o topo da tela.
