@@ -9,16 +9,26 @@ body{
     max-width: 350px;
     max-height: 300px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 60px;
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 4px 4px 4px 4px;
     
 }
 
 label{
     font-size: 22px;
+}
+
+.area-logo{
+    margin-top: 40px;
+}
+
+.logo{
+    
+    font-size: 22px;
+    color: white;
 }
 
