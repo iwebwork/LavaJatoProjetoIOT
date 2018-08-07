@@ -26,7 +26,8 @@
         <link rel="stylesheet" href="assets/css/login.css" type="text/css"/>
 
     </head>
-    <body class="fundo">
+
+    <body class="">
         
         <!-- Inicio area logo -->
         <div class="container-fluid area-logo">
@@ -39,17 +40,38 @@
         <!-- Fim area logo -->
         
         <!-- Inicio area Login-->
+        <?php
+            require 'config.php';
+            session_start();
+            //Se o usuario não digitou algo nos campos email e deixou ele enviou vazio
+            if ( isset($_POST['email']) && empty($_POST['email']) === false)  {
+                $email = addslashes($_POST['email']);
+                $senha = md5(addslashes($_POST['senha']));   
+                
+                $sql = $db->query("SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha' ");
+                
+                if($sql->rowCount() > 0){
+                    $dado = $sql->fetch();
+                    $_SESSION['id'] = $dado['id'];
+                    print_r($dado);
+                    header("Location: funcionalidades.php");
+                }      
+                
+            }else{
+                
+            }
+        ?>
         <div class="container">
             <div class="area border border-ligh">
                 <form method="POST">
                     
                     <div class="row form-group">
                         <div class="col-12"><label for="exampleInputEmail1">Email:</label></div>
-                        <div class="col-12"><input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></div>
+                        <div class="col-12"><input name ="email" type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></div>
                     </div>
                     <div class="row form-group">
                         <div class="col-12"><label for="exampleInputPassword1">Senha:</label></div>
-                        <div class="col-12"><input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Senha"></div>
+                        <div class="col-12"><input name="senha" type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Senha"></div>
                     </div>
                     
                     <div class="clearfix">
