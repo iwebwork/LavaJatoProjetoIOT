@@ -10,7 +10,7 @@
             if( isset($_SESSION['id']) AND empty($_SESSION['id']) == false ){
                 echo "<h2>Area restrita</h2><br>".PHP_EOL;
                 $id = $_SESSION['id'];
-
+                
                 $sql = $db->query("SELECT * FROM usuarios WHERE id = '$id' ");
                 if ($sql->rowCount() > 0) {
 

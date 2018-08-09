@@ -1,7 +1,7 @@
 <?php
-    $dsn = "mariadb:dbname=id6559066_projeto_lava_jatoi;host=Localhost";
-    $dbuser = "id6559066_lavajato";
-    $dbpass = "lavajato3156";
+    $dsn = "mysql:dbname=projeto_lava_jato;host=localhost";
+    $dbuser = "root";
+    $dbpass = "";
     
     try {
         $db = new PDO($dsn, $dbuser, $dbpass);

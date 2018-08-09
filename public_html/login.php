@@ -55,10 +55,10 @@
                     $_SESSION['id'] = $dado['id'];
                     print_r($dado);
                     header("Location: funcionalidades.php");
-                }      
+                }     
                 
-            }else{
-                
+            } else {
+                header("Location: login.php");
             }
         ?>
         <div class="container">

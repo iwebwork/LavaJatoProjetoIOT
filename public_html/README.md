@@ -29,3 +29,4 @@
 31/07/2018 Pagina de login criada, corpo do login terminado, rodapé terminado, falta criar o topo da tela.
 03/08/2018 Pagina de login finalizada.
 06/08/2018 Login finalizado, falta transferir os arquivos corretamente para a hospedagem.
+08/08/2018 Arquivo separado de conexão ao banco de dados adcionado, a conexão funcionou, mas ainda tem erros. 
