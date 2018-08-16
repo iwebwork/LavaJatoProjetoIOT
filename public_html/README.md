@@ -31,3 +31,4 @@
 06/08/2018 Login finalizado, falta transferir os arquivos corretamente para a hospedagem.
 08/08/2018 Arquivo separado de conexão ao banco de dados adcionado, a conexão funcionou, mas ainda tem erros.
 15/08/2018 O cadastro está pré pronto. Foi criado o arquivo adcionar.php, por enquanto sem uso.
+16/08/2018 Algumas coisas foram alteradas no site, como aparência, cores, e alguns ajustes.

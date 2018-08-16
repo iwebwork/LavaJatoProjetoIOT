@@ -1,22 +1,22 @@
-/*CSS para o fundo do menu
-.nav-menu{
-    background-color: #e6fed9;
-    font-family: Book Antiqua;
-    font-size: 22px;
-    list-style: none;
-    
-}*/
 
-/*CSS para mudar a cor por completo do menu*/
+@media only screen and (min-width: 425px) and (max-width: 320px){
+    .nav-body-conteudo{
+        padding-right: 0px;
+
+    }
+}
+
+
 .nav-body{
     padding-top: 0px;
-    background-color: #0303e1;
+    background-color: #00BFFF;
     box-shadow: 0px 8px 8px #0000FF;
 }
 
 /* CSS para centralizar o texto do menu*/
 .nav-body-conteudo{
     margin-top: 5px;
+    padding-right: 130px;
 }
 
 .title-nav{
@@ -26,7 +26,8 @@
 }
 
 .title-nav:hover{
-    color:#FFFFF0;
+    color:#FFFFFF;
+    
 }
 
 .font-corpo{
@@ -37,14 +38,14 @@
 
 .font-corpo:hover{
    
-    border: 1px #FFFFF0 groove;
-    color:#FFFFF0;
+    background-color: #0000CD;
+    color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .active{
+  
    
-    border: 1px #FFFFF0 groove;
-    color:#FFFFF0;
 }
 
 .nav-conteudo{

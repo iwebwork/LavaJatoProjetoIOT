@@ -27,13 +27,16 @@
         
 
     </head>
-    <body style="background-color: wheat;">
+    <body>
         <!-- Inicio area logo -->
-        <div class="container-fluid area-logo">
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4 text-center logo">Lava-Jato</div>
-                <div class="col-sm-4"></div>
+        <div class="container area-logo">
+            <div class="row justify-content-center">
+                
+                <div class="col-sm-2 text-title">
+                    <a class="title-nav navbar-brand disabled  text-center" href="index.html">Lava-Jato</a>
+                </div>
+                
+                
             </div>
         </div>
         <!-- Fim area Logo-->
